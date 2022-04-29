@@ -11,7 +11,7 @@ var ErrNotRunning = errors.New("not running")
 
 // Event interface
 type Event interface{}
-
+//https://github.com/fruitbox12/chamomile/blob/main/examples/permissionless.rs
 // Bus is an async event bus that allows subscriptions to behave as a bus themselves.
 // When an event is published, it is sent to all subscribers asynchronously - a subscriber
 // cannot block other subscribers.
